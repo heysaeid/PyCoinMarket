@@ -2,7 +2,6 @@ from abc import ABC, abstractmethod
 
 
 class BaseCryptoAPI(ABC):
-    ...
 
     @abstractmethod
     def get_category_list(self): 
